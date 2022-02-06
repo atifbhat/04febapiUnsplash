@@ -1,0 +1,35 @@
+.images {
+    padding: auto;
+    margin-top: 30px;
+}
+
+img {
+    margin-left: 5px;
+}
+
+#btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.images>img {
+    width: 300px;
+    height: 300px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 500px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+input:hover {
+    border: 1px solid rgba(18, 201, 30, 0.776);
+    border-radius: 10px 10px 10px 10px;
+}
